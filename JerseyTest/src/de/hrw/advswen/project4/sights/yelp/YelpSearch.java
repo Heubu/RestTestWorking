@@ -50,7 +50,6 @@ public class YelpSearch {
 		Response response = request.send();
 
 		String jsonResponse = response.getBody();
-//		System.out.println(jsonResponse);
 
 		mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
@@ -59,17 +58,7 @@ public class YelpSearch {
 		
 		business.getBusinesses();
 	
-//		for (Business abusiness : business.getBusinesses()) {
-//			
-//			
-//			System.out.println(abusiness.getName());
-//			System.out.println(abusiness.getUrl());
-//		}
-//		
-		//Generiere JSON aus Objekt
-//		System.out.println(mapper.writeValueAsString(business));
-		
-//		return businessArray;
+
 		
 		return business;
 		
