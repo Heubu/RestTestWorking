@@ -17,6 +17,7 @@ public class Runner {
 	private static final String CLIENT_ID = "O1G0Y2C5ZLPZ2LDLCJA1BSDWJNAGN053402LKAKSLPIL2E3T";
 	private static final String CLIENT_SECRET = "DKM3TBJSDJV5KQDDYMYN0YWBIARKPOXX0VJPUEGF44WMHIQH";
 	private static final String POI_ID = "4bf58dd8d48988d12d941735";
+	// TESTTEST
 
 	WebTarget webTarget;
 
